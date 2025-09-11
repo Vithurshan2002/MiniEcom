@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   /* const button = document.getElementsByClassName("rbuton");
@@ -10,29 +11,36 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between px-5 items-center py-4 bg-gradient-to-r from-gray-100 to-blue-300 sticky top-0">
+      <div className="flex justify-between px-5 items-center py-4 bg-gradient-to-r from-gray-100 to-blue-300 sticky top-0 z-100 ">
         <h1 className="text-5xl font-extrabold  from-blue-900">
           Bit<span className="text-blue-800">Za</span>
         </h1>
         <ul className="sm:flex space-x-2 sm:space-x-5 md:space-x-10 md: hidden">
-          <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
-            Home
-          </li>
-          <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
-            Dishes
-          </li>
-          <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
-            About
-          </li>
-          <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
-            Menu
-          </li>
-          <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
-            Reviews
-          </li>
-          <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
-            Order
-          </li>
+        
+            <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
+              Home
+            </li>
+          
+            <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
+              Dishes
+            </li>
+        
+            <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
+              About
+            </li>
+          
+            <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
+              Menu
+            </li>
+         
+            <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
+              Reviews
+            </li>
+         
+            <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
+              Order
+            </li>
+          
         </ul>
 
         <div className="flex items-center space-x-2 ">
@@ -40,7 +48,7 @@ const Navbar = () => {
             className="flex sm:hidden hover:bg-blue-200 rounded-lg transition-all cursor-pointer"
             onClick={() => {
               const scn = document.getElementsByClassName("scn");
-              scn[0].classList.toggle("translate-x-200");
+              scn[0].classList.toggle("-translate-y-200");
             }}
           >
             <svg
@@ -100,26 +108,34 @@ const Navbar = () => {
         </div>
       </div>
       {/* for mobile  */}
-      <div className=" border-t-4 border-b  border-y-blue-800  bg-gradient-to-br from-emerald-200 from-20% to-blue-200 absolute w-full sm:hidden  scn  duration-600 ease-in-out ">
+      <div className=" border-t-4 border-b  border-y-blue-800  bg-gradient-to-br from-blue-600 from-20% to-blue-100  w-full sm:hidden  scn  duration-600 ease-in-out z-20 fixed ">
         <ul className="text-2xl flex flex-col text-center space-y-2 ">
-          <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white   w-full  transition-all hover:scale-105">
-            Home
-          </li>
-          <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full transition-all hover:scale-105">
-            Dishes
-          </li>
-          <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
-            About
-          </li>
-          <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
-            Menu
-          </li>
-          <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
-            Reviews
-          </li>
-          <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
-            Order
-          </li>
+         
+            <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white   w-full  transition-all hover:scale-105">
+              Home
+            </li>
+          
+            <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full transition-all hover:scale-105">
+              Dishes
+            </li>
+          
+            <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
+              About
+            </li>
+          
+            <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
+              Menu
+            </li>
+         
+            <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
+              Reviews
+            </li>
+         
+         
+            <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
+              Order
+            </li>
+        
         </ul>
       </div>
     </>
