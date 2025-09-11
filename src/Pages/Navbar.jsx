@@ -2,12 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  /* const button = document.getElementsByClassName("rbuton");
- 
-  console.log(button)
-/*   button.addEventListener('click',()=>{
-                
-  }) */
 
   return (
     <>
@@ -43,7 +37,7 @@ const Navbar = () => {
           
         </ul>
 
-        <div className="flex items-center space-x-2 ">
+        <div className="flex items-center space-x-2 tran">
           <div
             className="flex sm:hidden hover:bg-blue-200 rounded-lg transition-all cursor-pointer"
             onClick={() => {
@@ -108,7 +102,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* for mobile  */}
-      <div className=" border-t-4 border-b  border-y-blue-800  bg-gradient-to-br from-blue-600 from-20% to-blue-100  w-full sm:hidden  scn  duration-600 ease-in-out z-20 fixed ">
+      <div className=" border-t-4 border-b  border-y-blue-800  bg-gradient-to-br from-blue-600 from-20% to-blue-100  w-full sm:hidden -translate-y-200 scn  duration-600 ease-in-out z-20 fixed ">
         <ul className="text-2xl flex flex-col text-center space-y-2 ">
          
             <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white   w-full  transition-all hover:scale-105">

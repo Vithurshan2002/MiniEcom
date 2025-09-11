@@ -10,9 +10,9 @@ function App() {
     <>
       <Navbar />
       <Homepage />
-     <Dishes />
-      {/* <AboutPage />
-      <MenusPage />
+      <Dishes />
+      <AboutPage />
+      {/* <MenusPage />
       <Review />
       <OrderPage />  */}
     </>
