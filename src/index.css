@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.MuiRating-icon{
+    color: green;
+}

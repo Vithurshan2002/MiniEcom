@@ -12,9 +12,9 @@ function App() {
       <Homepage />
       <Dishes />
       <AboutPage />
-      {/* <MenusPage />
-      <Review />
-      <OrderPage />  */}
+      {/*  <MenusPage /> */}
+     <Review />
+      {/* <OrderPage />  */}
     </>
   );
 }
