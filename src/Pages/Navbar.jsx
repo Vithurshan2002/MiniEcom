@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 
@@ -11,29 +11,29 @@ const Navbar = () => {
         </h1>
         <ul className="sm:flex space-x-2 sm:space-x-5 md:space-x-10 md: hidden">
         
-            <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
+            <Link to="home" smooth={true} duration={1000}> <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
               Home
-            </li>
+            </li></Link>
           
-            <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
+            <Link to="dishes" smooth={true} duration={1000}><li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
               Dishes
-            </li>
+            </li></Link> 
         
-            <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
+            <Link to="about" smooth={true} duration={1000}> <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
               About
-            </li>
+            </li></Link>
           
-            <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
+            <Link to="menu" smooth={true} duration={1000}> <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
               Menu
-            </li>
+            </li></Link>
          
-            <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
+             <Link to="reviews" smooth={true} duration={1000}><li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
               Reviews
-            </li>
+            </li></Link>
          
-            <li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
-              Order
-            </li>
+             <Link to="contact" smooth={true} duration={1000}><li className="font-bold font-[poppins] cursor-pointer hover:underline underline-offset-3 hover:text-emerald-700 transition-all hover:scale-105 text-xl">
+              Contact Us
+            </li></Link>
           
         </ul>
 
@@ -105,30 +105,30 @@ const Navbar = () => {
       <div className=" border-t-4 border-b  border-y-blue-800  bg-gradient-to-br from-blue-600 from-20% to-blue-100  w-full sm:hidden -translate-y-200 scn  duration-600 ease-in-out z-20 fixed ">
         <ul className="text-2xl flex flex-col text-center space-y-2 ">
          
-            <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white   w-full  transition-all hover:scale-105">
+            <Link to="home" smooth={true} duration={500}> <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white   w-full  transition-all hover:scale-105">
               Home
-            </li>
+            </li></Link>
           
-            <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full transition-all hover:scale-105">
+            <Link to="dishes" smooth={true} duration={500}> <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full transition-all hover:scale-105">
               Dishes
-            </li>
+            </li></Link>
           
-            <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
+           <Link to="about" smooth={true} duration={500}> <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
               About
-            </li>
+            </li></Link>
           
-            <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
+            <Link to="menu" smooth={true} duration={500}><li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
               Menu
-            </li>
+            </li></Link>
          
-            <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
+            <Link to="reviews" smooth={true} duration={500}><li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
               Reviews
-            </li>
+            </li></Link>
          
          
-            <li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
-              Order
-            </li>
+            <Link to="contact" smooth={true} duration={500}><li className="font-bold font-[poppins] cursor-pointer hover:bg-blue-500 hover:text-white  w-full  transition-all hover:scale-105">
+              Contact Us
+            </li></Link>
         
         </ul>
       </div>

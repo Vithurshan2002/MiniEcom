@@ -4,7 +4,7 @@ import Homepage from "./Pages/Homepage";
 import MenusPage from "./Pages/MenusPage";
 import Navbar from "./Pages/Navbar";
 import Review from "./Pages/Review";
-import OrderPage from "./Pages/OrderPage";
+import ContactPage from "./Pages/ContactPage";
 function App() {
   return (
     <>
@@ -14,7 +14,7 @@ function App() {
       <AboutPage />
       {/*  <MenusPage /> */}
      <Review />
-      {/* <OrderPage />  */}
+      <ContactPage/>
     </>
   );
 }

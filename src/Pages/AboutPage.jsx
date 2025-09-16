@@ -1,8 +1,8 @@
 import React from "react";
-
+import {Element } from 'react-scroll';
 const AboutPage = () => {
   return (
-    <div className="py-10 bg-gradient-to-t from-gray-500">
+     <Element name="about"><div className="py-10 bg-gradient-to-t from-gray-500">
       <p className=" font-bold text-blue-900 text-center">About Us</p>
       <h1 className="text-2xl text-emerald-950 font-bold text-center">
         WHY CHOOSE US?
@@ -93,7 +93,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div></Element>
   );
 };
 
