@@ -5,6 +5,7 @@ import MenusPage from "./Pages/MenusPage";
 import Navbar from "./Pages/Navbar";
 import Review from "./Pages/Review";
 import ContactPage from "./Pages/ContactPage";
+import Footer from "./Pages/Footer";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       {/*  <MenusPage /> */}
      <Review />
       <ContactPage/>
+      <Footer/>
     </>
   );
 }
