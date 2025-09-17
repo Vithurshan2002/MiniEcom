@@ -104,7 +104,7 @@ const Navbar = () => {
               </g>
             </svg>
           </div>
-          <div className="cursor-pointer  realative ">
+         <NavLink to={"/card"}> <div className="cursor-pointer  realative ">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +122,7 @@ const Navbar = () => {
             <div className="w-6 h-6 font-bold text-white bg-green-500 rounded-full absolute top-2 right-2 flex justify-center items-center">
               5
             </div>
-          </div>
+          </div></NavLink>
         </div>
       </div>
       {/* for mobile  */}

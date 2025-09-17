@@ -9,8 +9,8 @@ const Login = () => {
         <div className="flex items-center border-3 border-blue-800  px-2 rounded-full bg-white">
           <div>
             <input
-              type="text"
-              placeholder="Username"
+              type="email"
+              placeholder="Email"
               className="font-semibold text-blue-900 outline-0"
             />
           </div>
@@ -24,7 +24,7 @@ const Login = () => {
             >
               <path
                 fill="currentColor"
-                d="M9.775 12q-.9 0-1.5-.675T7.8 9.75l.325-2.45q.2-1.425 1.3-2.363T12 4t2.575.938t1.3 2.362l.325 2.45q.125.9-.475 1.575t-1.5.675zM4 18v-.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13t3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2v.8q0 .825-.587 1.413T18 20H6q-.825 0-1.412-.587T4 18"
+                d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zM20 8l-7.475 4.675q-.125.075-.262.113t-.263.037t-.262-.037t-.263-.113L4 8v10h16zm-8 3l8-5H4zM4 8v.25v-1.475v.025V6v.8v-.012V8.25zv10z"
               />
             </svg>
           </div>

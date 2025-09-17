@@ -9,6 +9,7 @@ import Footer from "./Pages/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
+import CardPage from "./Pages/CardPage";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           />
           <Route path="/login" element={<Login/>} />
            <Route path="/register" element={<Register/>} />
+           <Route path="/card" element={<CardPage/>}/>
         </Routes>
       </BrowserRouter>
     </>
