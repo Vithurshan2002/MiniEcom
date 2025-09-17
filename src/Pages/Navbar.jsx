@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -51,11 +52,11 @@ const Navbar = () => {
         </ul>
 
         <div className="flex items-center space-x-2 tran">
-          <Link to={'/login'}>
+          <NavLink to={'/login'}>
             <button className="text-xl font-bold border-2 px-2 py-1 hover:border-green-900 rounded cursor-pointer hover:text-white transition-all">
               Login
             </button>
-          </Link>
+          </NavLink>
           <div
             className="flex sm:hidden hover:bg-blue-200 rounded-lg transition-all cursor-pointer"
             onClick={() => {
