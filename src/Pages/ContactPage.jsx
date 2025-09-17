@@ -9,7 +9,7 @@ const ContactPage = () => {
     <Element name="contact">
       <div className="py-15 bg-gradient-to-t from-black ">
         <h1 className="text-3xl font-bold text-green-800 text-center">Contact Us</h1>
-        <p className="py-3 text-sm text-black font-semibold font-[poppins] text-center">
+        <p className="py-3 px-2 text-sm text-black font-semibold font-[poppins] text-center">
           We'd love to hear from you! Whether you have a question about our
           products, orders, shipping, or anything else, our team is ready to
           help.

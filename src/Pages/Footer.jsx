@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className=" bg-amber-400 p-5">
-      <div className="border-2 border-white border-dashed sm:p-2 ">
+      <div className="sm:border-2 border-white border-dashed sm:p-2 ">
         <div className="grid sm:grid-cols-3  grid-col-1 gap-4">
           <div className="border-2 p-2 border-white">
             <h1 className="font-bold text-[#EAF2F8] ">About Us</h1>
@@ -18,7 +18,7 @@ const Footer = () => {
               <div>
                 <h1 className="font-bold text-[#EAF2F8] ">Quick Links</h1>
                 <ul className="text-sm font-bold">
-                  <li>Home</li>
+                  <li className="">Home</li>
                   <li>Shop</li>
                   <li>About</li>
                   <li>Contact</li>

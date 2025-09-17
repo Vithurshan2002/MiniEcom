@@ -3,3 +3,8 @@
 .MuiRating-icon{
     color: green;
 }
+
+/* @theme{
+   --breakpoint-ux:40rem;
+   --breakpoint-sm:60rem;
+} */
