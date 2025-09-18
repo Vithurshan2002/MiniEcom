@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const OrderItem = () => {
   const Decrese = () => {
-     if (qty >1) {
+    if (qty > 1) {
       setqty((pre) => Number(pre) - 1);
     }
   };
@@ -28,13 +28,14 @@ const OrderItem = () => {
         <div className="flex">
           <div
             onClick={Decrese}
-            className="border w-5 h-5 flex items-center justify-center"
+            className="border w-5 h-5 flex items-center justify-center bg-blue-900 cursor-pointer hover:bg-blue-500 transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
               viewBox="0 0 24 24"
+              className="text-white"
             >
               <path fill="currentColor" d="m14 17l-5-5l5-5z" />
             </svg>
@@ -44,16 +45,15 @@ const OrderItem = () => {
           </div>
           <div
             onClick={Increse}
-            className=" border w-5 h-5 flex items-center justify-center"
+            className=" border w-5 h-5 flex items-center justify-center bg-blue-900 cursor-pointer hover:bg-blue-500 transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
               viewBox="0 0 24 24"
-              className="text-white"
             >
-              <path fill="#currentColor" d="M10 17V7l5 5z" />
+              <path fill="#f2f2f2" d="M10 17V7l5 5z" />
             </svg>
           </div>
         </div>
