@@ -8,3 +8,9 @@
    --breakpoint-ux:40rem;
    --breakpoint-sm:60rem;
 } */
+
+/* @layer components{
+    .button{
+        @apply  border-1 w-full font-bold bg-green-500 text-white hover:bg-green-300 transition-all cursor-pointer rounded-full mt-2
+    }
+} */

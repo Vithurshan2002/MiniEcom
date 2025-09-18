@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
 const OrderItem = () => {
+  const Decrese = () => {
+     if (qty >1) {
+      setqty((pre) => Number(pre) - 1);
+    }
+  };
+
+  const Increse = () => {
+    if (qty >= 0) {
+      setqty((pre) => Number(pre) + 1);
+    }
+  };
+  const [qty, setqty] = useState(1);
   return (
     <div className="flex items-center justify-between sm:px-10 px-2 sm:flex-3 border-3 border-blue-800 my-2 bg-green-500 rounded-xl shadow-2xs">
       <div className="flex items-center sm:space-x-15 space-x-2">
@@ -14,7 +26,10 @@ const OrderItem = () => {
 
       <div className="flex items-center sm:space-x-15 space-x-3">
         <div className="flex">
-          <div className="border w-5 h-5 flex items-center justify-center">
+          <div
+            onClick={Decrese}
+            className="border w-5 h-5 flex items-center justify-center"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -25,9 +40,12 @@ const OrderItem = () => {
             </svg>
           </div>
           <div className="border-2 bg-white w-10 h-5 flex justify-center border-blue-700  items-center">
-            <span className="text-black font-extrabold">{5}</span>
+            <span className="text-black font-extrabold">{qty}</span>
           </div>
-          <div className=" border w-5 h-5 flex items-center justify-center">
+          <div
+            onClick={Increse}
+            className=" border w-5 h-5 flex items-center justify-center"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -41,7 +59,7 @@ const OrderItem = () => {
         </div>
         <div className="sm:text-sm  text-xs  ">
           <p className="font-extrabold text-blue-900">$400.50</p>
-          <p className="font-semibold text-xs">$400.50 /peritem</p>
+          <p className="font-semibold text-xs">$400.50 /perItem</p>
         </div>
       </div>
 
@@ -51,7 +69,7 @@ const OrderItem = () => {
           width="32"
           height="32"
           viewBox="0 0 24 24"
-          className="animate-pulse"
+          className="animate-pulse cursor-pointer hover:animate-none"
         >
           <path
             fill="#e60a2e"

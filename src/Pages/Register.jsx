@@ -114,7 +114,7 @@ const Register = () => {
           Create account
         </button>
           <p className="text-center pt-5 py-3 text-white text-xs font-semibold">Or register with</p>
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly sm:px-20">
           <div className="flex border-white items-center space-x-2 border px-2 py-1 rounded-full cursor-pointer"><FcGoogle className="block"/><div className="font-bold text-xs text-black">Google</div></div>
           <div className="flex border-white items-center space-x-2 border px-2 py-1 rounded-full cursor-pointer"><FaFacebook className="block text-blue-500"/><div className="font-bold text-xs text-black">Facebook</div></div>
         </div>
