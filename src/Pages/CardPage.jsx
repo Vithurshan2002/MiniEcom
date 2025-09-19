@@ -3,7 +3,7 @@ import OrderItem from "../Components/OrderItem";
 
 const CardPage = () => {
   return (
-    <div className="sm:p-5 sm:h-screen p-2 bg-gradient-to-br from-sky-600">
+    <div className="sm:p-5 sm:h-screen p-2 bg-[url('https://media.istockphoto.com/id/2186978513/photo/six-young-people-taking-a-slice-of-pizza-in-a-pub.jpg?s=612x612&w=0&k=20&c=x42VCiwT6yl7thsUrwpnaciOrKYckZoyVOBiHaZhMoQ=')] bg-cover grayscale-25">
       <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-5">
         <div className="sm:flex-3 rounded-lg shadow-2xs shadow-white p-2 bg-white pb-10 mt-5">
           <div className="flex justify-between items-center sm:px-20  px-5 pt-2 pb-7">

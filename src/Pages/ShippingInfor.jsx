@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const ShippingInfor = () => {
   return (
-    <div className="flex  justify-center">
-      <div className="border-3 rounded-lg  w-150 my-20 sm:mx-0 mx-5 p-5">
-        <h1 className=" text-center font-extrabold text-3xl pb-4">
+    <div className="flex  justify-center bg-[url('https://media.istockphoto.com/id/2186978513/photo/six-young-people-taking-a-slice-of-pizza-in-a-pub.jpg?s=612x612&w=0&k=20&c=x42VCiwT6yl7thsUrwpnaciOrKYckZoyVOBiHaZhMoQ=')] bg-cover grayscale-25">
+      <div className=" rounded-lg shadow-2xl shadow-black  w-150 my-20 sm:mx-0 mx-5 p-5 bg-gradient-to-r from-white via-transparent  to-white">
+        <h1 className=" text-center font-extrabold text-3xl text-shadow-white text-shadow-2xs text-black pb-4">
           Delivery Address
         </h1>
         <form>
@@ -18,7 +18,7 @@ const ShippingInfor = () => {
                 type="text"
                 id="fullname"
                 placeholder="Enter Your Name"
-                className=" ps-1 font-semibold  border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
+                className=" ps-1 font-semibold bg-white border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
               />
             </div>
           </div>
@@ -32,7 +32,7 @@ const ShippingInfor = () => {
                 type="text"
                 id="email"
                 placeholder="Enter Your Email Address"
-                className=" ps-1 font-semibold  border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
+                className=" ps-1 font-semibold bg-white border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
               />
             </div>
           </div>
@@ -46,7 +46,7 @@ const ShippingInfor = () => {
                 type="text"
                 id="address"
                 placeholder="Enter Your Address"
-                className=" ps-1 font-semibold  border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
+                className=" ps-1 font-semibold bg-white border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
               />
             </div>
           </div>
@@ -61,7 +61,7 @@ const ShippingInfor = () => {
                   type="text"
                   id="state"
                   placeholder="Your State"
-                  className=" ps-1 font-semibold  border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
+                  className=" ps-1 font-semibold bg-white  border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
                 />
               </div>
             </div>
@@ -75,7 +75,7 @@ const ShippingInfor = () => {
                   type="text"
                   id="pcode"
                   placeholder="Your PotalCode"
-                  className=" ps-1 font-semibold  border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
+                  className=" ps-1 font-semibold bg-white  border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
                 />
               </div>
             </div>
@@ -91,7 +91,7 @@ const ShippingInfor = () => {
                   type="text"
                   id="country"
                   placeholder=" Your Country"
-                  className=" ps-1 font-semibold  border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
+                  className=" ps-1 font-semibold bg-white border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
                 />
               </div>
             </div>
@@ -105,7 +105,7 @@ const ShippingInfor = () => {
                   type="text"
                   id="pno"
                   placeholder=" Your PhoneNo"
-                  className=" ps-1 font-semibold  border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
+                  className=" ps-1 font-semibold bg-white  border-3 border-blue-700 focus:border-green-700  outline-0 rounded-lg w-full"
                 />
               </div>
             </div>
@@ -129,7 +129,7 @@ const ShippingInfor = () => {
                 <path fill="currentColor" d="m14 17l-5-5l5-5z" />
               </svg>
           
-         <NavLink to={'/card'}> <button className="cursor-pointer  hover:text-blue-700 transition-all text-sm font-bold">Back To Card</button> </NavLink>
+         <NavLink to={'/card'}> <button className="cursor-pointer  hover:text-blue-700 transition-all text-xs font-bold">Back To Card</button> </NavLink>
         </div>
        
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const ConfirmOrderItem = () => {
   return (
-    <div className="flex items-center justify-between sm:px-10 px-2 sm:flex-3 border-b-1 border-2  my-2  shadow-2xs">
+    <div className="flex items-center justify-between sm:px-10 px-2 sm:flex-3 border-b-1 border-2  my-2  shadow-2xs bg-white">
       <div className="flex items-center sm:space-x-20 space-x-2">
         <div className="w-15">
           <img src="home.png" alt="" className="w-full h-full object-cover" />

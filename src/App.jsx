@@ -13,6 +13,9 @@ import CardPage from "./Pages/CardPage";
 import ConfirmOrder from "./Pages/ConfirmOrder";
 import ShippingInfor from "./Pages/ShippingInfor";
 import PaymentPage from "./Pages/PaymentPage";
+import Starters from "./Pages/Starters";
+import MainCourses from "./Pages/MainCourses";
+import Desserts from "./Pages/Desserts";
 
 function App() {
   return (
@@ -27,7 +30,7 @@ function App() {
                 <Homepage />
                 <Dishes />
                 <AboutPage />
-                {/*  <MenusPage /> */}
+                <MenusPage /> 
                 <Review />
                 <ContactPage />
                 <Footer />
@@ -40,6 +43,9 @@ function App() {
           <Route path="/confirmorder" element={<ConfirmOrder />} />
           <Route path="/shippingInfor" element={<ShippingInfor />} />
           <Route path="/paymentpage" element={<PaymentPage />} />
+          <Route path="/starters" element={<Starters/>} />
+          <Route path="/maincourses" element={<MainCourses/>} />
+          <Route path="/desserts" element={<Desserts/>} />
         </Routes>
       </BrowserRouter>
     </>

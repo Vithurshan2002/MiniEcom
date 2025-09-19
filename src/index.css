@@ -4,10 +4,10 @@
     color: green;
 }
 
-/* @theme{
+ @theme{
    --breakpoint-ux:40rem;
    --breakpoint-sm:60rem;
-} */
+} 
 
 /* @layer components{
     .button{

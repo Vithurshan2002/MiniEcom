@@ -14,7 +14,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="border-2 border-white">
-            <div className="grid grid-cols-2 px-8">
+            <div className="flex justify-between px-8">
               <div>
                 <h1 className="font-bold text-[#EAF2F8] ">Quick Links</h1>
                 <ul className="text-sm font-bold">

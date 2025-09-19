@@ -2,7 +2,7 @@ import React from "react";
 import {Element } from 'react-scroll';
 const Homepage = () => {
   return (
-    <Element name="home"><div className="flex flex-col sm:flex-row justify-between items-center sm:px-30 bg-gradient-to-tr from-black py-20  to-white">
+    <Element name="home"><div className="flex flex-col sm:flex-row justify-between items-center sm:px-30 bg-gradient-to-tr from-black py-25  to-white">
       <div>
         <h1 className="sm:text-5xl text-3xl px-2 font-bold font-[poppins] text-center text-white">
           Welcome to <span className="text-black">Bit</span>

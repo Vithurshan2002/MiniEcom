@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 const ConfirmOrder = () => {
   return (
     <>
-    <div className='flex flex-col sm:flex-row'>
+    <div className='flex flex-col sm:flex-row '>
       <div className='flex-4/6 px-4 pt-4'>
         <h1 className=' text-3xl font-bold pb-2'>Order Items</h1>
       <ConfirmOrderItem/>
@@ -16,7 +16,7 @@ const ConfirmOrder = () => {
       </div>
 
 
-      <div className='flex-2/6 px-4 py-4 space-y-15'>
+      <div className='flex-2/6 px-4 py-4 space-y-15 '>
         <div className='border-1 p-2 ps-2'>
         <h1 className=' font-bold py-2 '>Shipping Address Infor</h1>
         
@@ -27,7 +27,7 @@ const ConfirmOrder = () => {
           Chavakachcheri,
           Jaffna.
         </div>
-        <div><NavLink to={'/shippingInfor'}><button className='text-sm sm:text-xs bg-blue-500 hover:bg-blue-300 transition-all cursor-pointer text-white font-semibold px-2 rounded-full py-1'>Change Address</button></NavLink></div>
+        <div><NavLink to={'/shippingInfor'}><button className='text-sm sm:text-xs   bg-blue-500 hover:bg-blue-300 transition-all cursor-pointer text-white font-semibold px-2 rounded-full py-1'>Change Address</button></NavLink></div>
         </div>
         </div>
 
