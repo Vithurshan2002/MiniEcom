@@ -1,3 +1,5 @@
+
+
 @import "tailwindcss";
 
 .MuiRating-icon{
@@ -14,3 +16,9 @@
         @apply  border-1 w-full font-bold bg-green-500 text-white hover:bg-green-300 transition-all cursor-pointer rounded-full mt-2
     }
 } */
+
+.alata-regular {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
