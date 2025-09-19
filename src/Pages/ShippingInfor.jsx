@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const ShippingInfor = () => {
   return (
-    <div className="flex h-screen justify-center">
-      <div className="border w-150 my-20 sm:mx-0 mx-5 p-5">
+    <div className="flex  justify-center">
+      <div className="border-3 rounded-lg  w-150 my-20 sm:mx-0 mx-5 p-5">
         <h1 className=" text-center font-extrabold text-3xl pb-4">
           Delivery Address
         </h1>
@@ -112,9 +112,9 @@ const ShippingInfor = () => {
           </div>
 
           <div className="flex justify-center pt-10">
-            <button className="font-bold w-full text-white bg-emerald-800 px-2 py-1 rounded-lg hover:bg-emerald-600 transition-all cursor-pointer">
+           <NavLink to={'/confirmorder'} className='w-full'> <button className="font-bold w-full text-white bg-emerald-800 px-2 py-1 rounded-lg hover:bg-emerald-600 transition-all cursor-pointer">
               Confirm Address
-            </button>
+            </button></NavLink>
           </div>
         </form>
 
