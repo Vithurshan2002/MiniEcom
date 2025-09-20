@@ -10,7 +10,7 @@ const MenusPage = () => {
         <h1 className="text-2xl text-emerald-950 font-bold text-center">
           Explore Our Dishes
         </h1>
-        <div className="flex sm:flex-row flex-col gap-15 sm:px-15  px-25 pt-10">
+        <div className="flex sm:flex-row flex-col gap-15  px-10 pt-10">
           <div className=" shadow-2xl rounded flex flex-col items-center group p-4 bg-white border flex-1">
             <div className="w-60 h-50">
               <img

@@ -1,5 +1,5 @@
 import React from "react";
-import {Element } from 'react-scroll';
+import {Element, Link } from 'react-scroll';
 const Homepage = () => {
   return (
     <Element name="home"><div className="flex flex-col sm:flex-row justify-between items-center sm:px-30 bg-gradient-to-tr from-black py-25  to-white">
@@ -10,12 +10,12 @@ const Homepage = () => {
           <br /> Every Bite is a Delight!
         </h1>
         <div className="flex justify-center space-x-4 py-6">
-          <buttton  className="block font-bold  p-2 bg-blue-800 cursor-pointer hover:bg-blue-400 transition-all px-2  rounded text-white">
+          <Link to="contact" smooth={true} duration={1000}> <buttton  className="block font-bold  p-2 bg-blue-800 cursor-pointer hover:bg-blue-400 transition-all px-2  rounded text-white">
             Contact Us
-          </buttton>
-          <buttton className="block font-bold  p-2 bg-green-800 cursor-pointer hover:bg-green-400 transition-all   rounded text-white">
+          </buttton></Link>
+          <Link to="menu" smooth={true} duration={1000}> <buttton className="block font-bold  p-2 bg-green-800 cursor-pointer hover:bg-green-400 transition-all   rounded text-white">
             Explore span
-          </buttton>
+          </buttton></Link>
         </div>
       </div>
 

@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="border-2 text-center border-white p-1">
-            <h1 className="text-[#EAF2F8] font-bold">GET IN TOUCH</h1>
+            <h1 className="text-[#EAF2F8] font-bold">Get In Touch</h1>
             <p className="font-bold text-sm py-1">Contact No:- 0761234567</p>
             <p className="font-bold text-sm py-1">
               Email:- <a href="" className="underline underline-offset-2">Bitza2002@gmail.com</a>
